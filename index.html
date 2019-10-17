@@ -1,30 +1,53 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Parti Yorkies of the Cove - It's a parti!</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="images/TYPEHERE.jpg"/>
-    </head>
-  <body>
-  /*<div id="wrapper">*/
-    &nbsp
-    <div id="flex">
-      
-      <center><nav>
-        <a href="index.html"><img src="images/TYPEHERE.jpg" alt="Home" height="41" width="111" img></a>
-        <a href="meet.html"><img src="images/TYPEHERE.jpg" alt="Meet Our Puppies" height="41" width="111" img></a>
-        <a href="about.html"><img src="images/TYPEHERE.jpg" alt="About Us" height="41" width="111" img></a>
-        <a href="learn.html"><img src="images/TYPEHERE.jpg" alt="Learn More" height="41" width="111" img></a>
-        <a href="learn.html"><img src="images/TYPEHERE.jpg" alt="Learn More" height="41" width="111" img></a>
-        <a href="learn.html"><img src="images/TYPEHERE.jpg" alt="Learn More" height="41" width="111" img></a>
-      </nav></center>
-    <main>
-      <h2>Parti Yorkies of the Cove</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum risus lacus, bibendum at neque eget, commodo placerat felis. Integer maximus consequat rhoncus. Donec vel ante ipsum</p>
-    </main>
-
-    </div>
-    </div>
-   </body>
-    </html>
+<!doctype html>
+<title>Example</title>
+<style>
+  * {
+    box-sizing: border-box; 
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+  }
+  
+  #row-1 {
+   display:flex;
+   flex-direction:row;
+  }
+  #main {
+    display: flex;
+    flex: 1;
+  }
+  #main > article {
+    flex: 1;
+    order: 1;
+  }
+  #main > nav {
+    flex: 0 0 20vw;
+  }
+  #row-1 > nav {
+    background: #D7E8D4;
+    flex:5
+  }
+  header, footer {
+    background: yellowgreen;
+    height: 20vh;
+  }
+  header, footer, article, nav, aside {
+    padding: 1em;
+  }
+  header {
+    width:40vh;
+  }
+</style>
+<body>
+  <div id="row-1">
+  <header>Header</header>
+  <nav>nav</nav>
+  </div>
+  <div id="main">
+    <article>Article</article>
+  </div>
+  <footer>Footer</footer>
+</body>
