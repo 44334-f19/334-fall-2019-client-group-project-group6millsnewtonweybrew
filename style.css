@@ -31,7 +31,7 @@
     background: #D7E8D4;
     flex:5
   }
-  header, footer {
+  header {
     background: yellowgreen;
     height: 20vh;
   }
@@ -43,9 +43,29 @@
   }
 
   #mininav {
-    
+
   }
 
   #footer {
-
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 30vh;
   }
+
+  #row-2 {
+    display:flex;
+    flex-direction:row;
+   }
+
+   #row-2 > nav {
+     flex: 2;
+   }
+
+   #row-2 > footer {
+     flex:4;
+     flex-direction: row-reverse;
+   }
+   }
