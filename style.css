@@ -61,10 +61,12 @@
     font-family: 'Oleo Script', cursive;
     letter-spacing: 0.1em;
     font-weight: 25;
+    text-align: right;
   }
   #contact {
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
+    text-align: right;
   }
 
   #contact > a {
