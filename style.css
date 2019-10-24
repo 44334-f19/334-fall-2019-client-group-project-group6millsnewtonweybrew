@@ -1,5 +1,6 @@
 /* Fonts from Google Fonts - more at https://fonts.google.com */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
 
 * {
@@ -42,30 +43,39 @@
     width:40vh;
   }
 
-  #mininav {
+  #mini-nav {
 
+  }
+
+  #footer-nav{
+
+  }
+
+  #name {
+    font-family: 'Oleo Script', cursive;
+    letter-spacing: 0.1em;
+    font-weight: 25;
+    padding-top:5px;
+    padding-bo
+  }
+  #contact {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.1em;
+    font-weight: 100;
+  }
+
+  #contact > a {
+    color: white;
+    text-decoration: none;
   }
 
   #footer {
-    left: 0;
-    bottom: 0;
-    width: 100%;
     background-color: black;
     color: white;
-    height: 30vh;
-  }
-
-  #row-2 {
-    display:flex;
-    flex-direction:row;
-   }
-
-   #row-2 > nav {
-     flex: 2;
-   }
-
-   #row-2 > footer {
-     flex:4;
-     flex-direction: row-reverse;
-   }
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;      
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
    }
