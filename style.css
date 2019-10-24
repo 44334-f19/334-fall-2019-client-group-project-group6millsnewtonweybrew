@@ -49,7 +49,6 @@
 
   #footer-nav {
     font-family: 'Open Sans', sans-serif;
-    padding-left: 30px;
   }
 
   #footer-nav > nav > h2 > a {
@@ -73,8 +72,10 @@
     text-decoration: none;
   }
 
+  #social-media {
+    padding-top 45px
+  }
   footer {
-    padding-right:30px;
   }
   #footer {
     background-color: black;
@@ -82,7 +83,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;      
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: stretch;
     align-content: stretch;
    }
