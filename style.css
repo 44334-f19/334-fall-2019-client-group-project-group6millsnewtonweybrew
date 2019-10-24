@@ -36,7 +36,7 @@
     background: yellowgreen;
     height: 20vh;
   }
-  header, footer, article, nav, aside {
+  header, article, aside {
     padding: 1em;
   }
   header {
@@ -47,20 +47,24 @@
 
   }
 
-  #footer-nav{
+  #footer-nav {
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 30px;
+  }
 
+  #footer-nav > nav > h2 > a {
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
   }
 
   #name {
     font-family: 'Oleo Script', cursive;
     letter-spacing: 0.1em;
     font-weight: 25;
-    padding-top:5px;
-    padding-bo
   }
   #contact {
     font-family: 'Open Sans', sans-serif;
-    letter-spacing: 0.1em;
     font-weight: 100;
   }
 
@@ -69,6 +73,9 @@
     text-decoration: none;
   }
 
+  footer {
+    padding-right:30px;
+  }
   #footer {
     background-color: black;
     color: white;
