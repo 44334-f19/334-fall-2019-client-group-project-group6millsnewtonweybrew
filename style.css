@@ -5,6 +5,8 @@
 
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
   }
   body {
     display: flex;
@@ -69,13 +71,6 @@
     align-items: stretch;
     align-content: stretch;
    }
-
-   * {
-     box-sizing: border-box;
-     padding: 0;
-     margin: 0;
-   }
-
 
    .navbar {
      font-size: 18px;
@@ -156,4 +151,4 @@
      .nav-links:hover {
        color: rgba(255, 255, 255, 1);
      }
-   }
+   
