@@ -11,8 +11,8 @@
     min-height: 100vh;
     flex-direction: column;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
   }
-
   
   #main {
     display: flex;
@@ -76,9 +76,6 @@
      margin: 0;
    }
 
-   body {
-     font-family: 'Open Sans', sans-serif;
-   }
 
    .navbar {
      font-size: 18px;
