@@ -21,6 +21,9 @@
     flex: 1;
     flex-direction: column;
     text-align: center;
+    padding-left:200px;
+    padding-right:200px;
+    padding-top:25px;
   }
 
 
@@ -30,7 +33,12 @@
   }
 
   #mini-nav {
+    text-align:left;
+  }
 
+  #mini-nav > a {
+    text-decoration:none;
+    font-family: 'Open Sans', sans-serif;
   }
 
   #footer-nav {
@@ -166,3 +174,4 @@
      #DogFace {
        height: 300px;
      }
+    }
