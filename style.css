@@ -156,3 +156,13 @@
      .nav-links:hover {
        color: rgba(255, 255, 255, 1);
      }
+     #picWrap
+          {
+           height: 300px;
+           text-align: center;
+           padding-top: 20px;
+           margin-bottom: 35px;
+       }
+     #DogFace {
+       height: 300px;
+     }
