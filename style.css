@@ -19,10 +19,14 @@
   #main {
     display: flex;
     flex: 1;
+    flex-direction: column;
+    text-align: center;
   }
-  #main > article {
-    flex: 1;
-    order: 1;
+
+
+  h1 {
+    font-family: 'Oleo Script', cursive;
+    float: center;
   }
 
   #mini-nav {
@@ -70,6 +74,7 @@
     justify-content: space-around;
     align-items: stretch;
     align-content: stretch;
+    padding-top:1.25em;
    }
 
    .navbar {
