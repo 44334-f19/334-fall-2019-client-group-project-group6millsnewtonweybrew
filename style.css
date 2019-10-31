@@ -16,16 +16,26 @@
     font-family: 'Open Sans', sans-serif;
   }
 
+  article {
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 50px;
+  }
+  
   #main {
     display: flex;
     flex: 1;
     flex-direction: column;
     text-align: center;
-    padding-left:200px;
-    padding-right:200px;
+    padding-left:250px;
+    padding-right:250px;
     padding-top:25px;
   }
 
+  #fam-pic {
+    padding-top:25px;
+    padding-bottom:25px;
+    align-content: center;
+  }
 
   h1 {
     font-family: 'Oleo Script', cursive;
@@ -68,11 +78,6 @@
     text-decoration: none;
   }
 
-  #social-media {
-    padding-top 45px
-  }
-  footer {
-  }
   #footer {
     background-color: black;
     color: white;
@@ -135,6 +140,10 @@
        padding-bottom: 0;
        height: 70px;
        align-items: center;
+     }
+
+     @media only screen and (max-width: 767px) {
+    
      }
 
      .main-nav {
