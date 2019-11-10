@@ -3,11 +3,11 @@
 @import url('https://fonts.googleapis.com/css?family=Oleo+Script&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
 
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
   }
   body {
     display: flex;
@@ -23,7 +23,7 @@
     padding-bottom: 50px;
     text-align:justify;
     text-indent:5em;
-    line-height: 30px;
+    line-height: 30px;;
   }
 
   #main {
@@ -94,17 +94,6 @@
     align-content: stretch;
     padding-top:1.25em;
    }
-
-   .column {
-    float:left;
-    width: 50%;
-    padding: 5px;
-  }
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
 
    .navbar {
      font-size: 18px;
@@ -237,4 +226,3 @@
                             }
 
 .mySlides {display:none;}
-}
