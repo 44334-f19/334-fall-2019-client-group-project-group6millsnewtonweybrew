@@ -210,10 +210,11 @@
     display:none;
   }
   .navbar {
-    min-height: 100px;
+    padding-bottom:0px;
   }
   .main-nav {
     flex-direction: column;
+    margin-right:0px;
   }
   .search-container{
     display:none;
@@ -246,7 +247,7 @@
   }
 }
 
-@media screen and (min-width:767px) and (max-width:849px) {
+@media screen and (min-width:767px) and (max-width:913px) {
   *{
     width:100%;
   }
@@ -260,6 +261,8 @@
   }
   .main-nav {
     flex-direction: column;
+    margin-right:0px;
+    padding-bottom:15px;
   }
   .search-container{
     display:none;
