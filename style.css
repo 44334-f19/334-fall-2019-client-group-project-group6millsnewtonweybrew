@@ -268,9 +268,11 @@
   #mini-nav {
     display:none;
   }
-  
+  .mySlides {display:none;}
 
- 
+  .w3-content, .w3-display-container {
+    display: none;
+  }
   article {
     text-indent:0px;
   }
